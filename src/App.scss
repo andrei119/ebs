@@ -1,0 +1,35 @@
+.image-container {
+	display: inline-block;
+	width: 33%;
+	img {
+		display: block;
+		padding: 5px;
+		margin: 0 auto;
+	}
+}
+.modal-wrapper {
+	display: table;
+	.modal-photo,
+	.user-info {
+		display: table-cell;
+		vertical-align: top;
+	}
+	.user-info {
+		padding: 10px 10px 0 10px;
+		img {
+			border-radius: 50%;
+		}
+		.name {
+			display: inline-block;
+		}
+		.bio {
+			display: block;
+			margin-top: 10px;
+		}
+	}
+}
+
+.popup-content {
+	padding: 0!important;
+	border: none!important;
+}
